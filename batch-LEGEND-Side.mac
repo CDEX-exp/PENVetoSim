@@ -1,0 +1,208 @@
+#Radioactive decay simulation
+/control/verbose 0
+/control/saveHistory
+/run/verbose 0
+#
+# Change the default number of threads (in multi-threaded mode)
+/run/numberOfThreads 24
+#
+
+/PEN/sim/set/mode LEGEND
+
+# Initialize kernel
+/run/initialize
+
+/LEGEND/src/pos Side
+
+/PEN/mat/set/PENpropertiesID 1
+/PEN/run/refresh true
+/PEN/det/set/runinfo Side-1
+
+/gps/particle ion
+/gps/ion 18 42 0 0
+/gps/energy 0 keV
+
+#run 0
+
+/LEGEND/readout/angle 1
+/run/beamOn 500000
+
+#run 1
+/LEGEND/readout/angle 3
+/run/beamOn 500000
+
+#run 2
+/LEGEND/readout/angle 5
+/run/beamOn 500000
+
+#run 3
+/LEGEND/readout/angle 10
+/run/beamOn 500000
+
+#run 4
+/LEGEND/readout/angle 30
+/run/beamOn 500000
+
+#run 5
+/LEGEND/readout/angle 60
+/run/beamOn 500000
+
+#run 6
+/LEGEND/readout/angle 90
+/run/beamOn 500000
+
+#run7
+/LEGEND/readout/angle 150
+/run/beamOn 500000
+
+#run 8
+/LEGEND/readout/angle 240
+/run/beamOn 500000
+
+#run 9
+/LEGEND/readout/angle 360
+/run/beamOn 500000
+
+###################K42
+
+/gps/particle ion
+/gps/ion 19 42 0 0
+/gps/energy 0 keV
+
+#run 0
+/LEGEND/readout/angle 1
+/run/beamOn 500000
+
+#run 1
+/LEGEND/readout/angle 3
+/run/beamOn 500000
+
+#run 2
+/LEGEND/readout/angle 5
+/run/beamOn 500000
+
+#run 3
+/LEGEND/readout/angle 10
+/run/beamOn 500000
+
+#run 4
+/LEGEND/readout/angle 30
+/run/beamOn 500000
+
+#run 5
+/LEGEND/readout/angle 60
+/run/beamOn 500000
+
+#run 6
+/LEGEND/readout/angle 90
+/run/beamOn 500000
+
+#run7
+/LEGEND/readout/angle 150
+/run/beamOn 500000
+
+#run 8
+/LEGEND/readout/angle 240
+/run/beamOn 500000
+
+#run 9
+/LEGEND/readout/angle 360
+/run/beamOn 500000
+
+#########################################
+#SrcPropertiesID=2
+#########################################
+/PEN/mat/set/PENpropertiesID 2
+/PEN/det/set/runinfo Side-2
+/PEN/run/refresh true
+
+/gps/particle ion
+/gps/ion 18 42 0 0
+/gps/energy 0 keV
+
+#run 0
+
+/LEGEND/readout/angle 1
+/run/beamOn 500000
+
+#run 1
+/LEGEND/readout/angle 3
+/run/beamOn 500000
+
+#run 2
+/LEGEND/readout/angle 5
+/run/beamOn 500000
+
+#run 3
+/LEGEND/readout/angle 10
+/run/beamOn 500000
+
+#run 4
+/LEGEND/readout/angle 30
+/run/beamOn 500000
+
+#run 5
+/LEGEND/readout/angle 60
+/run/beamOn 500000
+
+#run 6
+/LEGEND/readout/angle 90
+/run/beamOn 500000
+
+#run7
+/LEGEND/readout/angle 150
+/run/beamOn 500000
+
+#run 8
+/LEGEND/readout/angle 240
+/run/beamOn 500000
+
+#run 9
+/LEGEND/readout/angle 360
+/run/beamOn 500000
+
+###################K42
+
+/gps/particle ion
+/gps/ion 19 42 0 0
+/gps/energy 0 keV
+
+#run 0
+/LEGEND/readout/angle 1
+/run/beamOn 500000
+
+#run 1
+/LEGEND/readout/angle 3
+/run/beamOn 500000
+
+#run 2
+/LEGEND/readout/angle 5
+/run/beamOn 500000
+
+#run 3
+/LEGEND/readout/angle 10
+/run/beamOn 500000
+
+#run 4
+/LEGEND/readout/angle 30
+/run/beamOn 500000
+
+#run 5
+/LEGEND/readout/angle 60
+/run/beamOn 500000
+
+#run 6
+/LEGEND/readout/angle 90
+/run/beamOn 500000
+
+#run7
+/LEGEND/readout/angle 150
+/run/beamOn 500000
+
+#run 8
+/LEGEND/readout/angle 240
+/run/beamOn 500000
+
+#run 9
+/LEGEND/readout/angle 360
+/run/beamOn 500000
